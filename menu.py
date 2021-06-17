@@ -7,4 +7,3 @@ else:
     print('arquivo não carregado')
     func.CriarArquivo('cadastros.txt')
     print('tente executar novamente')
-    
