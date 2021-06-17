@@ -45,3 +45,14 @@ def CriarArquivo(nome):
         print(f'Erro na criação do arquivo, relatório de erro: {erro}')
     else:
         print('arquivo criado com sucesso')
+
+
+def leiaInt():
+    while True:
+        try:
+            num = input('Idade: ')
+            int(num)
+        except Exception as erro:
+            print(f'Insira um número válido, erro: {erro}')
+        else:
+            return num
